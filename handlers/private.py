@@ -16,12 +16,12 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/Ulvi_Music_Bot?startgroup=true"
+                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/ElishMusicBot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧔🏻 Sahibim", url="https://t.me/BrendUIvi"
+                        "🧔🏻 Sahibim", url="https://t.me/ElishizmXX"
                     ),
                     InlineKeyboardButton(
                         "🇦🇿 Rəsmi Kanal", url="https://t.me/UlviProject"
@@ -115,12 +115,12 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/Ulvi_Music_Bot?startgroup=true"
+                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/ElishMusicBot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧔🏻 Sahibim", url="https://t.me/BrendUIvi"
+                        "🧔🏻 Sahibim", url="https://t.me/ElishizmXX"
                     ),
                     InlineKeyboardButton(
                         "🇦🇿 Rəsmi Kanal", url="https://t.me/UlviProject"
