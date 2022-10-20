@@ -9,22 +9,22 @@ from helpers.filters import command, other_filters2
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgIAAxkBAAFQ6LljGsrT4XPljp14SXutiGgdSWYaQgACegEAAhAabSKcnbdITu9y3ikE")
     await message.reply_text(
-      f"""**{bot} Sizi Salamlayır👋🏻\n\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam\n\n✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin\n\n🆘 Hər hansı problemlə qarşılaşsanız @UlviSup qrupumuza gəlib bildirə bilərsiniz!\n\n🎵 Musiqi yükləmək üçün digər botumuz: @UlviSongRobot\n\n🤖 Digər Botlar: @UlviProject**
+      f"""**{bot} Sizi Salamlayır👋🏻\n\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam\n\n✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin\n\n🆘 Hər hansı problemlə qarşılaşsanız @CekaSup qrupumuza gəlib bildirə bilərsiniz!\n\n🎵 Musiqi yükləmək üçün digər botumuz: @Ceka_18\n\n🤖 Digər Botlar: @CekaProject**
       """,
          reply_markup
          =InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/ElishMusicBot?startgroup=true"
+                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/Ceka_Music_Bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧔🏻 Sahibim", url="https://t.me/ElishizmXX"
+                        "🧔🏻 Sahibim", url="https://t.me/Ceka_18"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi Kanal", url="https://t.me/UlviProject"
+                        "🇦🇿 Rəsmi Kanal", url="https://t.me/CekaProject"
                     )
                 ],
                 [
@@ -115,15 +115,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/ElishMusicBot?startgroup=true"
+                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/Ceka_Music_Bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧔🏻 Sahibim", url="https://t.me/ElishizmXX"
+                        "🧔🏻 Sahibim", url="https://t.me/Ceka_18"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi Kanal", url="https://t.me/UlviProject"
+                        "🇦🇿 Rəsmi Kanal", url="https://t.me/CekaProject"
                     )
                 ],
                 [
